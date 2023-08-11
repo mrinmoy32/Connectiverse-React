@@ -18,10 +18,10 @@ function LandingPage() {
           <h2>Get Started</h2>
           <div className="buttons">
             <Link to="/login">
-              <button className="login-button">Log in</button>
+              <button className="landing__login-button">Log in</button>
             </Link>
             <Link to="/signup">
-              <button className="signup-button">Sign up</button>
+              <button className="landing__signup-button">Sign up</button>
             </Link>
           </div>
         </div>

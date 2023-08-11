@@ -50,22 +50,16 @@
   gap: 1rem;
 }
 
-.login-button,
-.signup-button {
+.landing__login-button,
+.landing__signup-button {
   padding: 1rem 2rem;
   border: none;
   color: white;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.login-button {
   background-color: rgb(60, 70, 255);
-}
-
-.signup-button {
-  background-color: rgb(60, 70, 255);
+  border-radius: 10px;
 }
 
 /* Media Query for responsiveness */
@@ -92,8 +86,8 @@
     min-height: 34%;
   }
 
-  .login-button,
-  .signup-button {
+  .landing__login-button,
+  .landing__signup-button {
     width: 100%;
   }
 }

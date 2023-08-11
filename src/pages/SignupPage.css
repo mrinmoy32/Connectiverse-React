@@ -1,0 +1,77 @@
+/* Signup Page Styles */
+.signup-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.singup__left-section {
+  flex: 1;
+  background-color: rgb(60, 70, 255);
+  color: white;
+  padding: 4rem;
+  box-sizing: border-box;
+}
+
+.signup-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.signup__right-section {
+  flex: 1;
+  background-color: white;
+  padding: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form {
+  text-align: center;
+  width: 80%;
+}
+
+.signup-form h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgb(210, 146, 255);
+  border-radius: 10px;
+}
+
+.signup-button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: rgb(210, 146, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 3rem;
+  
+  
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .signup-page {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    flex: none;
+    width: 100%;
+    padding: 2rem;
+  }
+}
