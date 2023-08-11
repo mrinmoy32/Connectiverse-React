@@ -1,4 +1,3 @@
-/* Landing Page Styles */
 .landing-page {
   display: flex;
   height: 100vh;
@@ -14,8 +13,15 @@
 }
 
 .welcome-text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 9rem;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.welcome-text p {
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .right-section {
@@ -77,6 +83,13 @@
 
   .buttons {
     flex-direction: column;
+  }
+
+  .left-section {
+    min-height: 66%;
+  }
+  .right-section {
+    min-height: 34%;
   }
 
   .login-button,

@@ -1,21 +1,28 @@
-import React from 'react';
-import './LandingPage.css'; // Import the CSS file for styling
+import React from "react";
+import { Link } from "react-router-dom";
+import "./LandingPage.css"; // Import the CSS file for styling
 
 function LandingPage() {
   return (
     <div className="landing-page">
       <div className="left-section">
         <div className="welcome-text">
-          <h1>Welcome to Social Media App</h1>
-          <p>Your platform for connecting and sharing</p>
+          <h1>Connectiverse</h1>
+          <p>
+            Your gateway to seamless connections and meaningful interactions
+          </p>
         </div>
       </div>
       <div className="right-section">
         <div className="get-started">
           <h2>Get Started</h2>
           <div className="buttons">
-            <button className="login-button">Log in</button>
-            <button className="signup-button">Sign up</button>
+            <Link to="/login">
+              <button className="login-button">Log in</button>
+            </Link>
+            <Link to="/signup">
+              <button className="signup-button">Sign up</button>
+            </Link>
           </div>
         </div>
       </div>
