@@ -13,6 +13,28 @@ Connectiverse is a social media application built with React that allows users t
 - View and edit user profiles.
 - Responsive design for various screen sizes.
 
+## Project Structure
+
+src/
+|-- components/
+|   |-- common/
+|   |   |-- Navbar.js
+|   |-- users/
+|   |   |-- Register.js
+|   |   |-- Login.js
+|   |   |-- UserProfile.js
+|-- pages/
+|   |-- LandingPage.js
+|   |-- LoginPage.js
+|   |-- HomePage.js
+|   |-- UserPosts.js
+|   |-- UserPost.js
+|   |-- NotFound.js
+|-- services/
+|   |-- api.js
+|-- App.js
+|-- index.js
+
 ## Table of Contents
 
 - [Demo](#demo)
