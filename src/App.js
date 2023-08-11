@@ -5,14 +5,14 @@ import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import HomePage from './pages/Home';
-import UserPosts from './pages/UserPosts';
-import UserPost from './pages/UserPost';
+import UserPosts from './components/users/UserPosts';
+import UserPost from './components/users/UserPost';
 import NotFound from './pages/NotFound';
 
 function App() {
   return (
     <Router>
-      {false && <Navbar />}
+      {true && <Navbar />}
       <main>
       <Routes>
         <Route path="/" Component={LandingPage} />
