@@ -19,7 +19,7 @@ function App() {
         <Route path="/" Component={LandingPage} />
         <Route path="/login" Component={LoginPage} />
         <Route path="/signup" Component={SignupPage} />
-        <Route path="/user/profile" Component={UserProfile} />
+        <Route path="/user/profile/" Component={UserProfile} />
         <Route path="/user/editprofile" Component={EditProfile} />
         <Route path="/user/post/newpost" Component={NewPost} />
         <Route path="/user/post/:postId" Component={UserPost} />
