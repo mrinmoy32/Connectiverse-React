@@ -1,6 +1,6 @@
-import React from 'react';
-import './UserPost.css';
-import Card from '../common/Card'; // Import the Card component
+import React from "react";
+import "./UserPost.css";
+import Card from "../common/Card";
 
 function UserPost({ post, onEdit, onDelete }) {
   return (
@@ -17,8 +17,12 @@ function UserPost({ post, onEdit, onDelete }) {
           <p className="post-comments">{post.comments.length} Comments</p>
         </div>
         <div className="post-actions">
-          <button className="edit-button" onClick={() => onEdit(post.id)}>Edit</button>
-          <button className="delete-button" onClick={() => onDelete(post.id)}>Delete</button>
+          <button className="edit-button" onClick={() => onEdit(post.id)}>
+            Edit
+          </button>
+          <button className="delete-button" onClick={() => onDelete(post.id)}>
+            Delete
+          </button>
         </div>
       </Card>
     </div>
