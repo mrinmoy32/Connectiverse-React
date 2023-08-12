@@ -20,6 +20,9 @@ function Navbar() {
         <li>
           <Link to="/user/editprofile">Edit Profile</Link>
         </li>
+        <li>
+          <Link to="/">Logout</Link>
+        </li>
         
         {/* Add more navigation links */}
       </ul>

@@ -15,15 +15,15 @@ function SignupPage() {
         <form className="signup-form">
           <h2>Welcome aboard</h2>
           <div className="input-container">
-            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Name" required/>
           </div>
           <div className="input-container">
-            <input type="email" placeholder="Email address" />
+            <input type="email" placeholder="Email address" required/>
           </div>
           <div className="input-container">
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" required/>
           </div>
-          <button className="signup-button">Sign up</button>
+          <Link to="/user/profile"><button className="signup-button">Sign up</button></Link>
           <Link to="/login">Already have an account? plesae login</Link>
         </form>
       </div>

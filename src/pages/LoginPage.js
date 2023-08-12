@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './LoginPage.css'; // Import the CSS file for styling
+import React from "react";
+import { Link } from "react-router-dom";
+import "./LoginPage.css"; // Import the CSS file for styling
 
 function LoginPage() {
   return (
@@ -15,12 +15,14 @@ function LoginPage() {
         <form className="login-form">
           <h2>Welcome back</h2>
           <div className="input-container">
-            <input type="email" placeholder="Email address" />
+            <input type="email" placeholder="Email address" required/>
           </div>
           <div className="input-container">
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Password" required/>
           </div>
-          <button className="login-button">Log in</button>
+          <Link to="/user/profile">
+            <button className="login-button">Log in</button>
+          </Link>
           <Link to="/signup">New user? Sign up instead</Link>
         </form>
       </div>
