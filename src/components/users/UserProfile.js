@@ -11,12 +11,12 @@ function UserProfile() {
       content:
         "Just returned from an amazing hiking trip! Nature's beauty is breathtaking.",
       date: "2023-08-10",
-      author: "John Doe",
+      author: "Amit Ghorai",
       likes: 120,
       comments: [
         {
           id: 1,
-          author: "Jane Smith",
+          author: "John Doe",
           content: "Wow, the photos are stunning!",
         },
         {
@@ -32,7 +32,7 @@ function UserProfile() {
       content:
         "Cooking up a storm in the kitchen today. These recipes are a real game-changer!",
       date: "2023-08-09",
-      author: "Alice Parker",
+      author: "Amit Ghorai",
       likes: 85,
       comments: [
         {
@@ -49,7 +49,7 @@ function UserProfile() {
       content:
         "Took a hike in the mountains today. The breathtaking views were totally worth it!",
       date: "2023-08-10",
-      author: "Michael Johnson",
+      author: "Amit Ghorai",
       likes: 42,
       comments: [
         {
@@ -66,7 +66,7 @@ function UserProfile() {
       content:
         "Having a movie night with friends. Popcorn, cozy blankets, and a selection of classic films!",
       date: "2023-08-11",
-      author: "Mark Williams",
+      author: "Amit Ghorai",
       likes: 67,
       comments: [
         { id: 1, author: "Olivia Brown", content: "Sounds like so much fun!" },

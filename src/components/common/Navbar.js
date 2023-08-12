@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <Link className="logo-text" to="/">
+        <Link className="logo-text" to="/user/profile">
           Connectiverse
         </Link>
       </div>
