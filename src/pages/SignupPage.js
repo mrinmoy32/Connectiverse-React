@@ -24,7 +24,7 @@ function SignupPage() {
             <input type="password" placeholder="Password" />
           </div>
           <button className="signup-button">Sign up</button>
-          <Link to="/login">Already have a account? plesae login</Link>
+          <Link to="/login">Already have an account? plesae login</Link>
         </form>
       </div>
     </div>
