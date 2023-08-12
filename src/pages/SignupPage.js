@@ -1,5 +1,5 @@
 import React from 'react';
-import './SignupPage.css'; // Import the CSS file for styling
+import './SignupPage.css';
 import { Link } from 'react-router-dom';
 
 function SignupPage() {

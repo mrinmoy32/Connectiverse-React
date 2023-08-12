@@ -83,16 +83,18 @@ function UserProfile() {
     {
       id: 1,
       name: "Amit Ghorai",
-      imageUrl: "https://media.licdn.com/dms/image/C4D03AQElcEcq1ldIIg/profile-displayphoto-shrink_400_400/0/1595906680024?e=1697068800&v=beta&t=Ws9d8kONrxLC7kxyOc7SQdA5pO99lGeweLqPUpUIjL0",
-      postCount: 18
+      imageUrl:
+        "https://media.licdn.com/dms/image/C4D03AQElcEcq1ldIIg/profile-displayphoto-shrink_400_400/0/1595906680024?e=1697068800&v=beta&t=Ws9d8kONrxLC7kxyOc7SQdA5pO99lGeweLqPUpUIjL0",
+      postCount: 18,
     },
     {
       id: 2,
       name: "Anupam Nag",
-      imageUrl: "https://media.licdn.com/dms/image/C5103AQEAk3l8V2lv9g/profile-displayphoto-shrink_100_100/0/1567511985370?e=1697068800&v=beta&t=lRhZyskkrf7jHkD2g5OSFLVJEbDUGXBBLOXC7t8akFk",
-      postCount: 6
-    }
-  ]
+      imageUrl:
+        "https://media.licdn.com/dms/image/C5103AQEAk3l8V2lv9g/profile-displayphoto-shrink_100_100/0/1567511985370?e=1697068800&v=beta&t=lRhZyskkrf7jHkD2g5OSFLVJEbDUGXBBLOXC7t8akFk",
+      postCount: 6,
+    },
+  ];
 
   const [postData, setPostData] = useState(posts);
 
@@ -110,15 +112,12 @@ function UserProfile() {
     <React.Fragment>
       <Navbar />
       <div className="user-posts-page">
-        {/* Cover Photo */}
         <div className="cover-photo">
           {/* <img
               src="https://i.pinimg.com/originals/f4/20/9c/f4209cc95059f1d4e71a284efe332b93.png"
               alt="cover_photo"
             /> */}
         </div>
-
-        {/* Profile Section */}
         <div className="profile-container">
           <div className="profile-section">
             <div className="profile-image">
@@ -127,15 +126,12 @@ function UserProfile() {
                 alt="profile_photo"
               />
             </div>
-            
           </div>
           <span className="user-info">
-              <h2>{users[0].name}</h2>
-              <p>Total Posts: {posts.length}</p>
-            </span>
+            <h2>{users[0].name}</h2>
+            <p>Total Posts: {posts.length}</p>
+          </span>
         </div>
-
-        {/* User Posts */}
         <div className="user-posts">
           {postData.map((postData, index) => (
             <UserPost

@@ -62,7 +62,6 @@
   border-radius: 10px;
 }
 
-/* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
   .landing-page {
     flex-direction: column;

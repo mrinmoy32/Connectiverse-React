@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -10,7 +10,7 @@ function Navbar() {
           Connectiverse
         </Link>
       </div>
-      <ul className="nav-links">   
+      <ul className="nav-links">
         <li>
           <Link to="/user/post/newpost">New Post</Link>
         </li>
@@ -23,8 +23,6 @@ function Navbar() {
         <li>
           <Link to="/">Logout</Link>
         </li>
-        
-        {/* Add more navigation links */}
       </ul>
     </nav>
   );

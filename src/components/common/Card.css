@@ -1,33 +1,26 @@
-/* Card Component Styles */
 .card {
-    background-color: #fff; /* Bright background color */
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
-    transition: transform 0.2s, box-shadow 0.2s;
-  
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    }
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
-  /* Card Title */
-  .card-title {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  
-  /* Card Content */
-  .card-content {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-  }
-  
-  /* Media Query for responsiveness */
-  @media screen and (max-width: 768px) {
-    /* Adjust styles as needed for smaller screens */
-  }
-  
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+
+.card-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+

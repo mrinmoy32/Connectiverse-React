@@ -1,10 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Navbar from './components/common/Navbar';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
-// import HomePage from './pages/Home';
 import UserProfile from './components/users/UserProfile';
 import UserPost from './components/users/UserPost';
 import NotFound from './pages/NotFound';

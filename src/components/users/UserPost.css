@@ -1,6 +1,5 @@
-/* User Post Component Styles */
 .user-post {
-  width: 66vw; /* 2/3 of viewport width */
+  width: 66vw;
   margin: 1rem auto;
 }
 
@@ -36,7 +35,7 @@
 
 .edit-button,
 .delete-button {
-  background-color: #60a7ff; /* Bright accent color */
+  background-color: #60a7ff;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -49,12 +48,11 @@
 
 .edit-button:hover,
 .delete-button:hover {
-  background-color: #458edf; /* Slightly darker accent color */
+  background-color: #458edf;
 }
 
-/* Media Query for responsiveness */
 @media screen and (max-width: 768px) {
   .user-post {
-    width: 90vw; /* 90% of viewport width */
+    width: 90vw;
   }
 }

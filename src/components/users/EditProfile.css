@@ -1,47 +1,40 @@
-/* Edit Profile Page Styles */
 .edit-profile-page {
-    background-color: #f5f5f5;
-    color: #333;
-    padding: 2rem;
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .edit-form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  input {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  .save-button {
-    background-color: #60a7ff; /* Bright accent color */
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .save-button:hover {
-    background-color: #458edf; /* Slightly darker accent color */
-  }
-  
-  /* Media Query for responsiveness */
-  @media screen and (max-width: 768px) {
-    /* Adjust styles as needed for smaller screens */
-  }
-  
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.edit-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.save-button {
+  background-color: #60a7ff;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.save-button:hover {
+  background-color: #458edf;
+}
