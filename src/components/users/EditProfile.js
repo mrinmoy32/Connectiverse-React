@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './EditProfile.css';
+import Navbar from '../common/Navbar';
 
 function EditProfile() {
   const [name, setName] = useState('');
@@ -12,7 +13,9 @@ function EditProfile() {
   };
 
   return (
-    <div className="edit-profile-page">
+    <React.Fragment>
+      <Navbar />
+      <div className="edit-profile-page">
       <h2>Edit Profile</h2>
       <div className="edit-form">
         <input
@@ -39,6 +42,7 @@ function EditProfile() {
         </button>
       </div>
     </div>
+    </React.Fragment>
   );
 }
 

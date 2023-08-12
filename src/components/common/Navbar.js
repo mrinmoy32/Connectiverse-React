@@ -15,10 +15,10 @@ function Navbar() {
           <Link to="/home">Home</Link>
         </li>
         <li>
-          <Link to="/user/posts">My Posts</Link>
+          <Link to="/user/profile">My Profile</Link>
         </li>
         <li>
-          <Link to="/user/newpost">New Post</Link>
+          <Link to="//user/post/newpost">New Post</Link>
         </li>
         {/* Add more navigation links */}
       </ul>
