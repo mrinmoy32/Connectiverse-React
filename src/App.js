@@ -5,10 +5,10 @@ import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import HomePage from './pages/Home';
-// import UserPosts from './components/users/UserPosts';
+import UserPosts from './components/users/UserPosts';
 import UserPost from './components/users/UserPost';
 import NotFound from './pages/NotFound';
-import UserProfile from './components/users/UserProfile';
+import EditProfile from './components/users/EditProfile';
 
 function App() {
   return (
@@ -20,7 +20,8 @@ function App() {
         <Route path="/login" Component={LoginPage} />
         <Route path="/signup" Component={SignupPage} />
         <Route path="/home" Component={HomePage} />
-        <Route path="/user/posts" Component={UserProfile} />
+        <Route path="/user/posts" Component={UserPosts} />
+        <Route path="/user/editprofile" Component={EditProfile} />
         <Route path="/user/post/:postId" Component={UserPost} />
         <Route Component={NotFound} />
       </Routes>

@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/user/posts">My Posts</Link>
         </li>
         <li>
-          <Link to="/user/createPost">New Post</Link>
+          <Link to="/user/newpost">New Post</Link>
         </li>
         {/* Add more navigation links */}
       </ul>
