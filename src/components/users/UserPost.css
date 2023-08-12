@@ -1,20 +1,60 @@
 /* User Post Component Styles */
 .user-post {
-    width: 100%;
+  width: 66vw; /* 2/3 of viewport width */
+  margin: 1rem auto;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.post-content {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color: #888;
+}
+
+.post-author {
+  font-weight: bold;
+}
+
+.post-interactions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #60a7ff; /* Bright accent color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 0.5rem;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #458edf; /* Slightly darker accent color */
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  .user-post {
+    width: 90vw; /* 90% of viewport width */
   }
-  
-  .post-title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .post-content {
-    font-size: 1rem;
-    color: #ccc;
-  }
-  
-  /* Media Query for responsiveness */
-  @media screen and (max-width: 768px) {
-    /* Adjust styles as needed for smaller screens */
-  }
-  
+}

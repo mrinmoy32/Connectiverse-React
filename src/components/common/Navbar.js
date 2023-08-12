@@ -10,16 +10,17 @@ function Navbar() {
           Connectiverse
         </Link>
       </div>
-      <ul className="nav-links">
+      <ul className="nav-links">   
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/user/post/newpost">New Post</Link>
         </li>
         <li>
           <Link to="/user/profile">My Profile</Link>
         </li>
         <li>
-          <Link to="//user/post/newpost">New Post</Link>
+          <Link to="/user/editprofile">Edit Profile</Link>
         </li>
+        
         {/* Add more navigation links */}
       </ul>
     </nav>
