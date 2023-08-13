@@ -5,9 +5,9 @@ import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import UserProfile from './components/users/UserProfile';
 import UserPost from './components/users/UserPost';
-import NotFound from './pages/NotFound';
 import EditProfile from './components/users/EditProfile';
 import NewPost from './components/users/NewPost';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/user/editprofile" Component={EditProfile} />
         <Route path="/user/post/newpost" Component={NewPost} />
         <Route path="/user/post/:postId" Component={UserPost} />
-        <Route Component={NotFound} />
+        <Route path= "/*" Component={NotFound} />
       </Routes>
       </main>
     </Router>

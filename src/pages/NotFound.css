@@ -1,0 +1,38 @@
+/* NotFound Page Styles */
+.not-found-page {
+  background-color: #f5f5f5; /* Bright background color */
+  color: #333;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cat-animation {
+  max-width: 100%;
+  margin:  auto;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust styles as needed for smaller screens */
+}
