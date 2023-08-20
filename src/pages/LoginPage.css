@@ -5,7 +5,7 @@
 }
 
 .login__left-section {
-  flex: 1.2;
+  flex: 1;
   background-color: rgb(60, 70, 255);
   color: white;
   padding: 4rem;
@@ -18,7 +18,7 @@
 }
 
 .login__right-section {
-  flex: 0.8;
+  flex: 1;
   background-color: white;
   padding: 4rem, 8rem;
   box-sizing: border-box;
@@ -38,12 +38,12 @@
 }
 
 .input-container {
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   border: 1px solid rgb(210, 146, 255);
   border-radius: 10px;
 }
@@ -56,9 +56,14 @@ input {
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 3rem;
-  margin-left: -1rem;
+  margin: auto;
+  margin-bottom: 1rem;
   width: 10rem;
+}
+
+.action_login{
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,4 +77,5 @@ input {
     width: 100%;
     padding: 2rem;
   }
+  
 }

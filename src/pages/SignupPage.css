@@ -21,6 +21,7 @@
   flex: 1;
   background-color: white;
   padding: 4rem;
+  padding-top: 2rem;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -38,12 +39,12 @@
 }
 
 .input-container {
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   border: 1px solid rgb(210, 146, 255);
   border-radius: 10px;
 }
@@ -56,7 +57,13 @@ input {
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
-  margin-right: 3rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.signup_action{
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
@@ -64,10 +71,18 @@ input {
     flex-direction: column;
   }
 
-  .left-section,
-  .right-section {
-    flex: none;
+  .singup__left-section{
+    flex: 0.3;
     width: 100%;
     padding: 2rem;
   }
+  .singup__right-section{
+    flex: 1.7;
+    width: 100%;
+  }
+  .signup-form h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
 }

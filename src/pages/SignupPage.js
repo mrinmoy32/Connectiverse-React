@@ -37,7 +37,7 @@ function SignupPage() {
       window.alert("Signup successful!");
       navigate("/user/profile/");
     } catch (error) {
-      console.log(error.message);
+      console.log(error.response.data.message);
     }
   };
 
@@ -111,10 +111,12 @@ function SignupPage() {
                 }}
               />
             </div>
+            <div className="signup_action">
             <button className="signup-button" onClick={signupHandler}>
               Sign up
             </button>
             <Link to="/login">Already have an account? plesae login</Link>
+            </div>
           </form>
         </div>
       </div>
