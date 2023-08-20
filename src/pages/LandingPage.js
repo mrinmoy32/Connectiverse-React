@@ -5,7 +5,7 @@ import "./LandingPage.css";
 function LandingPage() {
   return (
     <div className="landing-page">
-      <div className="left-section">
+      <div className="landing__left-section">
         <div className="welcome-text">
           <h1>Connectiverse</h1>
           <p>
@@ -13,7 +13,7 @@ function LandingPage() {
           </p>
         </div>
       </div>
-      <div className="right-section">
+      <div className="landing__right-section">
         <div className="get-started">
           <h2>Get Started</h2>
           <div className="buttons">

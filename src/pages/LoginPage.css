@@ -71,8 +71,8 @@ input {
     flex-direction: column;
   }
 
-  .left-section,
-  .right-section {
+  .login__left-section,
+  .login__left-section {
     flex: none;
     width: 100%;
     padding: 2rem;
