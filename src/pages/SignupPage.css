@@ -75,10 +75,12 @@ input {
     flex: 0.3;
     width: 100%;
     padding: 2rem;
+    padding-top: 0;
   }
   .singup__right-section{
     flex: 1.7;
     width: 100%;
+    padding-top: 1rem;
   }
   .signup-form h2 {
     font-size: 1.5rem;
