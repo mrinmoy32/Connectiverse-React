@@ -39,7 +39,7 @@
 }
 
 .input-container {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 input {
@@ -61,7 +61,7 @@ input {
   margin-bottom: 1rem;
 }
 
-.signup_action{
+.signup_action {
   display: flex;
   flex-direction: column;
 }
@@ -71,13 +71,13 @@ input {
     flex-direction: column;
   }
 
-  .singup__left-section{
+  .singup__left-section {
     flex: 0.3;
     width: 100%;
     padding: 2rem;
     padding-top: 0;
   }
-  .singup__right-section{
+  .singup__right-section {
     flex: 1.7;
     width: 100%;
     padding-top: 1rem;
@@ -86,5 +86,8 @@ input {
     font-size: 1.5rem;
     margin-top: 0;
   }
-
+  .signup-text h1 {
+    font-size: 2.1rem;
+    margin-bottom: 0.6rem;
+  }
 }
