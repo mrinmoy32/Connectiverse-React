@@ -79,14 +79,18 @@
   }
 
   .landing__left-section {
-    min-height: 66%;
+    flex: 0.7;
   }
   .landing__right-section {
-    min-height: 34%;
+    flex: 1.3
   }
 
   .landing__login-button,
   .landing__signup-button {
     width: 100%;
+  }
+
+  .welcome-text p {
+    font-size: 2rem;
   }
 }

@@ -15,7 +15,7 @@ function NewPost() {
     <React.Fragment>
       <Navbar />
       <div className="new-post-page">
-        <h2>Create a New Post</h2>
+        <h2 className="newPost-header">Create a New Post</h2>
         <div className="post-form">
           <input
             type="text"

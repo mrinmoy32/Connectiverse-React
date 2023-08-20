@@ -16,7 +16,7 @@ function EditProfile() {
     <React.Fragment>
       <Navbar />
       <div className="edit-profile-page">
-      <h2>Edit Profile</h2>
+      <h2 className='editProfile-header'>Edit Profile</h2>
       <div className="edit-form">
         <input
           type="text"
