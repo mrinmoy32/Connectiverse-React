@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "f71d54dd-b300-4930-9598-4056b9c21bd5",
+		"name": "Social API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22804189"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\":\"babai@mailinator.com\",\n    \"password\":\"12345678\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/auth/signin",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"auth",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Anik Das\",\n    \"email\":\"anik@mailinator.com\",\n    \"password\":\"12345678\",\n    \"confirm_password\":\"12345678\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/auth/signup",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get Profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/user",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Profile",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\":\"Anik Das\",\n    \"profile_pic\":null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/user",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Files",
+			"item": [
+				{
+					"name": "Upload File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/home/lp-40/Pictures/cute-penguin-angel-cartoon-character-design-premium-vector.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_URL}}/file",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"file"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "Create Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\":\"A Post made by Anik\",\n    \"image\":\"https://developmentmatrix.s3.ap-south-1.amazonaws.com/social-api/files/1689860586706.jpg\",\n    \"caption\":\"Minasan Konnichiwa\",\n    \"body\":\"Hello world\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/post",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Post",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"caption\": \"Updated caption\",\n    \"image\":\"https://developmentmatrix.s3.ap-south-1.amazonaws.com/social-api/files/1689662354950.jpg\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{API_URL}}/post/64b63867d14b15a07d804a6f",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"post",
+								"64b63867d14b15a07d804a6f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/post",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"post"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/post/64b93a10f000fcb4fd353f82",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"post",
+								"64b93a10f000fcb4fd353f82"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove Post",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{API_URL}}/post/64b93a2bf000fcb4fd353f84",
+							"host": [
+								"{{API_URL}}"
+							],
+							"path": [
+								"post",
+								"64b93a2bf000fcb4fd353f84"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGI5MzliMmYwMDBmY2I0ZmQzNTNmN2EiLCJuYW1lIjoiQW5payBEYXMiLCJwcm9maWxlX3BpYyI6bnVsbCwiZW1haWwiOiJhbmlrQG1haWxpbmF0b3IuY29tIiwiX192IjowLCJhdXRoVG9rZW5UeXBlIjoidG9rZW4iLCJpYXQiOjE2ODk4NjA1MzAsImV4cCI6MTY5MDQ2NTMzMH0._Dwr2A-SGz8Rv2wDZ5MVJFTIjc-Mir82PxgeS5BoRnE",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API_URL",
+			"value": "http://demoyourprojects.com:5085",
+			"type": "string"
+		}
+	]
+}
