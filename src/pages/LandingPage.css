@@ -93,4 +93,8 @@
   .welcome-text p {
     font-size: 2rem;
   }
+
+  .welcome-text h1 {
+    margin-bottom: 3.5rem;
+  }
 }
