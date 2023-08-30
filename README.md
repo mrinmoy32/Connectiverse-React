@@ -17,21 +17,21 @@ Connectiverse is a social media application built with React that allows users t
 
 src/
 |-- components/
-|   |-- common/
-|   |   |-- Navbar.js
-|   |-- users/
-|   |   |-- Register.js
-|   |   |-- Login.js
-|   |   |-- UserProfile.js
+| |-- common/
+| | |-- Navbar.js
+| |-- users/
+| | |-- Register.js
+| | |-- Login.js
+| | |-- UserProfile.js
 |-- pages/
-|   |-- LandingPage.js
-|   |-- LoginPage.js
-|   |-- HomePage.js
-|   |-- UserPosts.js
-|   |-- UserPost.js
-|   |-- NotFound.js
+| |-- LandingPage.js
+| |-- LoginPage.js
+| |-- HomePage.js
+| |-- UserPosts.js
+| |-- UserPost.js
+| |-- NotFound.js
 |-- services/
-|   |-- api.js
+| |-- api.js
 |-- App.js
 |-- index.js
 
