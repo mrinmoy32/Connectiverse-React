@@ -47,8 +47,8 @@ src/
 
 ## Demo
 
-A live demo of the application can be accessed at: [Connectiverse Demo](https://connectiverse.netlify.app/)
-Alternate Link: https://connectiverse-react.vercel.app
+- A live demo of the application can be accessed at: [Connectiverse Demo](https://connectiverse.netlify.app/)
+- Alternate Link: https://connectiverse-react.vercel.app
 
 ## Installation
 
