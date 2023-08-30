@@ -2,7 +2,7 @@
 
 Connectiverse is a social media application built with React that allows users to connect, share posts, and interact with each other.
 
-![Connectiverse Screenshot](https://github.com/[mrinmoy32]/[Connectiverse-React]/blob/[master]/Screenshot-Connectiverse.png?raw=true)
+![Connectiverse Screenshot](Screenshot-Connectiverse.png)
 
 ## Features
 
