@@ -5,7 +5,7 @@ import "./NewPost.css";
 function NewPost() {
   const [postTitle, setPostTitle] = useState("");
   const [postText, setPostText] = useState("");
-  const [postImage, setPostImage] = useState(null);
+  // const [postImage, setPostImage] = useState(null);
 
   const handlePost = () => {
     // Implement post functionality here
@@ -28,11 +28,11 @@ function NewPost() {
             value={postText}
             onChange={(e) => setPostText(e.target.value)}
           />
-          <input
+          {/* <input
             type="file"
             accept="image/*"
             onChange={(e) => setPostImage(e.target.files[0])}
-          />
+          /> */}
           <button className="post-button" onClick={handlePost}>
             Post
           </button>
